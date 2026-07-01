@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "titulo": "Portal NewsCloud inicia cobertura especial de tecnologia",
+    "categoria": "Tecnologia",
+    "autor": "Redação NewsCloud",
+    "publicadoEm": "2026-06-01",
+    "resumo": "A equipe editorial iniciou uma cobertura voltada a tendências de cloud, DevOps e APIs.",
+    "status": "publicada"
+  },
+  {
+    "id": 2,
+    "titulo": "Blogs ganham espaço em plataformas de conteúdo digital",
+    "categoria": "Blogs",
+    "autor": "Carla Mendes",
+    "publicadoEm": "2026-06-03",
+    "resumo": "Colunas especializadas ajudam leitores a acompanhar temas de interesse de forma recorrente.",
+    "status": "publicada"
+  },
+  {
+    "id": 3,
+    "titulo": "APIs REST facilitam integração entre portais e aplicativos",
+    "categoria": "Desenvolvimento",
+    "autor": "Lucas Pereira",
+    "publicadoEm": "2026-06-05",
+    "resumo": "A arquitetura REST segue sendo bastante utilizada por permitir comunicação simples via HTTP.",
+    "status": "publicada"
+  },
+  {
+    "id": 4,
+    "titulo": "Pipeline CI reduz erros antes da publicação em produção",
+    "categoria": "DevOps",
+    "autor": "Mariana Costa",
+    "publicadoEm": "2026-06-07",
+    "resumo": "Automatizar testes a cada alteração ajuda a manter estabilidade no ciclo de desenvolvimento.",
+    "status": "publicada"
+  },
+  {
+    "id": 5,
+    "titulo": "Conteúdo regional aumenta engajamento em sites de notícias",
+    "categoria": "Jornalismo",
+    "autor": "Rafael Souza",
+    "publicadoEm": "2026-06-08",
+    "resumo": "Matérias locais aproximam leitores do portal e fortalecem a recorrência de acesso.",
+    "status": "publicada"
+  },
+  {
+    "id": 6,
+    "titulo": "Monitoramento de APIs se torna essencial para portais online",
+    "categoria": "Cloud",
+    "autor": "Aline Rocha",
+    "publicadoEm": "2026-06-10",
+    "resumo": "Rotas de status auxiliam equipes técnicas a validar se uma aplicação está ativa.",
+    "status": "publicada"
+  },
+  {
+    "id": 7,
+    "titulo": "Dados simulados ajudam em testes sem expor informações reais",
+    "categoria": "Segurança",
+    "autor": "Eduardo Lima",
+    "publicadoEm": "2026-06-12",
+    "resumo": "Usar arquivos JSON externos permite testar a API sem depender de banco de dados real.",
+    "status": "publicada"
+  },
+  {
+    "id": 8,
+    "titulo": "Docker simplifica execução de APIs em diferentes máquinas",
+    "categoria": "Infraestrutura",
+    "autor": "Fernanda Alves",
+    "publicadoEm": "2026-06-14",
+    "resumo": "Containers reduzem diferenças de ambiente e facilitam a reprodução do projeto.",
+    "status": "publicada"
+  },
+  {
+    "id": 9,
+    "titulo": "Testes unitários validam comportamento esperado das rotas",
+    "categoria": "Qualidade",
+    "autor": "Bruno Martins",
+    "publicadoEm": "2026-06-16",
+    "resumo": "Testar retorno 200, estrutura JSON e erro 404 melhora a confiança na API.",
+    "status": "publicada"
+  },
+  {
+    "id": 10,
+    "titulo": "GitHub Actions automatiza validações em projetos acadêmicos",
+    "categoria": "DevOps",
+    "autor": "Paulo Ricken",
+    "publicadoEm": "2026-06-18",
+    "resumo": "A integração contínua executa lint e testes sempre que há alteração no repositório.",
+    "status": "publicada"
+  }
+]
