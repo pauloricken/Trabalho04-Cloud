@@ -1,0 +1,37 @@
+name: CI - NewsCloud API
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Baixa o código do repositório para dentro do ambiente do GitHub Actions.
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      # Configura a versão do Node usada no projeto.
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Instala as dependências da API dentro da pasta api.
+      - name: Instalar dependências
+        working-directory: ./api
+        run: npm install
+
+      # Etapa adicional além dos testes: valida o padrão básico do código.
+      - name: Rodar análise estática com ESLint
+        working-directory: ./api
+        run: npm run lint
+
+      # Executa os testes unitários da API.
+      - name: Rodar testes unitários
+        working-directory: ./api
+        run: npm test
